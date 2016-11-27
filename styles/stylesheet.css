@@ -1,0 +1,109 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	color:#666;
+	margin-top:0px;
+	margin-bottom:0px;
+	background-color:#EEE;
+	padding-bottom:0px;
+}
+
+.container{
+	background-color:#FFF;
+	padding-bottom:200px;
+}
+
+form{
+	font-size:18px;
+	margin-top:10px;
+}
+
+input{
+	margin-top:10px;
+	width:170px;
+	height:26px;
+}
+
+option{
+	margin-top:10px;
+	width:170px;
+	height:26px;
+}
+
+label{
+	width:180px;
+	padding-right:5px;
+	text-align:right;
+	margin-right:20px;
+}
+
+.total-amount{
+	color:#C00;
+	display:inline-block;
+}
+
+.myradio{
+	width:20px;
+	vertical-align:middle;
+}
+
+a, a:link{
+	color:#06F;
+	text-decoration:none;
+}
+
+.submit-button{
+	border:none;
+	border-radius:5px;
+	background-color:#EEE;
+	height:50px;
+	width:150px;
+	text-align:center;
+	font-size:24px;
+	cursor:pointer;
+	padding-top:5px;
+	margin-top:20px;
+}
+
+.submit-button-hover{
+	background-color:#06F;
+	color:#FFF;
+}
+
+#company-table td{
+	width:200px;
+}
+
+#accounts-table td{
+	width:300px;
+}
+
+.employees-table td{
+	width:400px;
+	text-align:left;
+}
+
+.my-row, .my-row-footer{
+	text-align:right;
+	font-size:16px;
+}
+
+.my-row-hover a, .my-row-hover{
+	background-color:#06F;
+	color:#FFF;
+	cursor:pointer;
+}
+
+.heading{
+	text-align:center;
+}
+
+.cell-link{
+	height:100%;
+	width:100%;
+}
+
+.error{
+	color:#F00;
+}
